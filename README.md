@@ -1,208 +1,139 @@
-# 🤖 My AI/ML Journey — From Basics to GenAI
+# 🤖 Machine Learning Journey — Andrew Ng's ML Specialization
 
 <div align="center">
 
-![Status](https://img.shields.io/badge/Status-In%20Progress-yellow?style=for-the-badge)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+**Feroz | BE CSE (AI/ML) | Hyderabad, India**
 
-*A structured, end-to-end documentation of my journey from basic ML to Deep Learning and Generative AI — built with the goal of landing a role in AI/ML.*
+[![Coursera](https://img.shields.io/badge/Coursera-ML_Specialization-0056D2?style=flat&logo=coursera&logoColor=white)](https://www.coursera.org/specializations/machine-learning-introduction)
+[![Status](https://img.shields.io/badge/Status-In_Progress-F5A623?style=flat)](#)
+[![Made With](https://img.shields.io/badge/Made_With-Python-3776AB?style=flat&logo=python&logoColor=white)](#)
+[![Notebooks](https://img.shields.io/badge/Notebooks-Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)](#)
 
 </div>
 
 ---
 
-## 👤 About Me
+## 👋 About This Repository
 
-- 🎓 Engineering student from **Hyderabad, India**
-- 🧠 Starting point: **Python + Basic Machine Learning**
-- 🎯 Goal: **Get placed in an AI/ML company and build real-world AI systems**
-- 🌐 Interests: **Deep Learning, Generative AI, Computer Vision, NLP**
-- 📍 Open to roles in: ML Engineering, AI Research, Applied AI
+I'm a Computer Science graduate with a specialization in AI/ML, and while I've built real projects — a FinBERT-powered market sentiment tool, a medical AI assistant, a crack detection pipeline — I realized I was building without a solid mathematical and conceptual foundation beneath me.
+
+This repository is me fixing that.
+
+I'm going through **Andrew Ng's Machine Learning Specialization** on Coursera from first principles: every algorithm derived, every intuition earned, every notebook written by hand. No shortcuts.
+
+> *"Don't just use the tools. Understand the tools."*
 
 ---
 
-## 🗺️ The Journey Roadmap
+## 📚 The Specialization
+
+The [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) by **Andrew Ng** (DeepLearning.AI × Stanford) consists of **3 courses**, covering the full arc of modern ML — from linear regression to reinforcement learning.
+
+---
+
+## 🗺️ Progress Tracker
+
+### Course 1 · Supervised Machine Learning: Regression & Classification
+
+| Week | Topic | Status |
+|------|-------|--------|
+| Week 1 | Introduction to ML · Linear Regression · Cost Function | ⬜ Not Started |
+| Week 2 | Gradient Descent · Vectorization · Multiple Features | ⬜ Not Started |
+| Week 3 | Logistic Regression · Decision Boundary · Overfitting & Regularization | ⬜ Not Started |
+
+### Course 2 · Advanced Learning Algorithms
+
+| Week | Topic | Status |
+|------|-------|--------|
+| Week 1 | Neural Networks — Inference · TensorFlow Basics | ⬜ Not Started |
+| Week 2 | Neural Network Training · Activation Functions · Multiclass | ⬜ Not Started |
+| Week 3 | Practical ML Advice · Bias & Variance · Learning Curves | ⬜ Not Started |
+| Week 4 | Decision Trees · Ensemble Methods · Random Forests · XGBoost | ⬜ Not Started |
+
+### Course 3 · Unsupervised Learning, Recommenders & Reinforcement Learning
+
+| Week | Topic | Status |
+|------|-------|--------|
+| Week 1 | K-Means Clustering · Anomaly Detection | ⬜ Not Started |
+| Week 2 | Collaborative Filtering · Content-Based Filtering | ⬜ Not Started |
+| Week 3 | Reinforcement Learning · State-Action-Reward · Deep Q-Learning | ⬜ Not Started |
+
+> **Legend:** ⬜ Not Started · 🔄 In Progress · ✅ Done
+
+---
+
+## 🧠 What I'm Building Alongside
+
+Each week I will complement the course with:
+
+- **Handwritten notes** — concepts in my own words, edge cases, intuitions
+- **Clean Python implementations** — algorithms from scratch, no sklearn crutch until I've built it manually
+- **Mini-projects** — small, focused notebooks that apply each week's concept to a real dataset
+
+---
+
+## 🔧 Tools & Stack
 
 ```
-Phase 0 ──────► Phase 1 ──────────────► Phase 2 ──────────────► Phase 3
-Python +         Deep Learning           Generative AI            Specialise
-Basic ML    ✅   (NPTEL - 12 Weeks)      & LLMs                   + Job Hunt
-                                         (NPTEL - 12 Weeks)
-```
-
----
-
-## ✅ Phase 0 — Foundation (Done)
-
-> *What I already know before this journey officially begins.*
-
-| Area | Topics Covered |
-|------|----------------|
-| Python | OOP, File I/O, Libraries (NumPy, Pandas, Matplotlib) |
-| Basic ML | Regression, Classification, Decision Trees, SVM, KNN |
-| Tools | Jupyter Notebooks, Git, VS Code |
-
----
-
-## 🔷 Phase 1 — Deep Learning (NPTEL · IIT Madras / IIT Ropar)
-
-> **Course:** Deep Learning by Prof. Mitesh M. Khapra (IIT Madras)
-> **Duration:** 12 Weeks | **Platform:** NPTEL/SWAYAM
-
-### 📅 Week-by-Week Progress
-
-| Week | Topics | Status |
-|------|--------|--------|
-| Week 1 | History of DL, McCulloch-Pitts Neuron, Perceptrons | ⏳ |
-| Week 2 | MLPs, Sigmoid Neurons, Gradient Descent, Feedforward Networks | ⏳ |
-| Week 3 | Feedforward Neural Networks (deep dive), Backpropagation | ⏳ |
-| Week 4 | SGD, Adam, RMSProp, AdaGrad, Momentum, Eigenvalues | ⏳ |
-| Week 5 | PCA, Singular Value Decomposition (SVD) | ⏳ |
-| Week 6 | Autoencoders, Denoising, Sparse & Contractive Autoencoders | ⏳ |
-| Week 7 | Regularization, Dropout, Bias-Variance, Data Augmentation | ⏳ |
-| Week 8 | Activation Functions, Weight Initialization, Batch Normalization | ⏳ |
-| Week 9 | Word Embeddings, Vectorial Representations | ⏳ |
-| Week 10 | CNNs — LeNet, AlexNet, VGGNet, GoogLeNet, ResNet | ⏳ |
-| Week 11 | RNNs, BPTT, Vanishing Gradients, GRU, LSTMs | ⏳ |
-| Week 12 | Encoder-Decoder, Attention Mechanism, Attention over Images | ⏳ |
-
-> ✅ Done &nbsp; 🔄 In Progress &nbsp; ⏳ Upcoming
-
-### 🛠️ Phase 1 — Hands-on Projects
-
-| # | Project | Concepts Applied | Tools |
-|---|---------|-----------------|-------|
-| P1 | Neural Network from Scratch | Backprop, Gradient Descent, Activation Functions | NumPy only |
-| P2 | Optimizers from Scratch | Adam, SGD, RMSProp — coded manually | NumPy, Python |
-| P3 | Image Classifier (CNN) | CNNs, ResNet, Transfer Learning | PyTorch, CIFAR-10 |
-| P4 | Sentiment Analyzer (LSTM) | RNNs, LSTMs, Word Embeddings | PyTorch, IMDB Dataset |
-| P5 | Seq2Seq with Attention | Encoder-Decoder, Attention Mechanism | PyTorch |
-
----
-
-## 🔷 Phase 2 — Generative AI & LLMs (NPTEL · IIT)
-
-> **Course:** Fundamentals of Generative AI and Large Language Models: Theory and Practice
-> **Duration:** 12 Weeks | **Platform:** NPTEL/SWAYAM
-
-### 📅 Week-by-Week Progress
-
-| Week | Topics | Status |
-|------|--------|--------|
-| Week 1–2 | Transformers, Self-Attention, Multi-head Attention | ⏳ |
-| Week 3–4 | Pre-training, Fine-tuning, Transfer Learning with LLMs | ⏳ |
-| Week 5–6 | BERT, GPT, T5 — Architecture & Use Cases | ⏳ |
-| Week 7–8 | Prompt Engineering, In-context Learning, RLHF | ⏳ |
-| Week 9–10 | Diffusion Models, Image Generation, DALL-E concepts | ⏳ |
-| Week 11–12 | RAG Systems, LLM Deployment, Real-world Applications | ⏳ |
-
-### 🛠️ Phase 2 — Hands-on Projects
-
-| # | Project | Concepts Applied | Tools |
-|---|---------|-----------------|-------|
-| P6 | Fine-tune a Small LLM | Transfer Learning, HuggingFace, LoRA | HuggingFace Transformers |
-| P7 | Build a RAG Chatbot | Retrieval-Augmented Generation, Vector DBs | LangChain, FAISS |
-| P8 | Text Summarizer (T5/BART) | Seq2Seq LLMs, Prompt Engineering | HuggingFace |
-| P9 | GenAI Image Pipeline | Diffusion Models, CLIP | Stable Diffusion, Python |
-
----
-
-## 📦 Repository Structure
-
-```
-📁 ml-journey/
-│
-├── 📁 phase-0-foundations/
-│   ├── python-basics/
-│   └── basic-ml/
-│
-├── 📁 phase-1-deep-learning/
-│   ├── week-wise-notes/
-│   ├── projects/
-│   │   ├── P1-neural-net-from-scratch/
-│   │   ├── P2-optimizers-from-scratch/
-│   │   ├── P3-cnn-image-classifier/
-│   │   ├── P4-lstm-sentiment/
-│   │   └── P5-seq2seq-attention/
-│   └── resources.md
-│
-├── 📁 phase-2-genai-llms/
-│   ├── week-wise-notes/
-│   ├── projects/
-│   │   ├── P6-llm-finetuning/
-│   │   ├── P7-rag-chatbot/
-│   │   ├── P8-text-summarizer/
-│   │   └── P9-image-generation/
-│   └── resources.md
-│
-├── 📁 resources/
-│   ├── books.md
-│   ├── papers.md
-│   └── cheatsheets/
-│
-└── README.md
+Language     →  Python 3.x
+Environment  →  Jupyter Notebook / VS Code
+Libraries    →  NumPy · Matplotlib · Pandas · Scikit-learn · TensorFlow
+Version Ctrl →  Git + GitHub (this repo)
 ```
 
 ---
 
-## 🧰 Tech Stack Being Built
+## 📁 Repository Structure
+
+```
+ml-specialization/
+│
+├── course-1-supervised-ml/
+│   ├── week-1-linear-regression/
+│   ├── week-2-gradient-descent/
+│   └── week-3-logistic-regression/
+│
+├── course-2-advanced-algorithms/
+│   ├── week-1-neural-networks/
+│   ├── week-2-training/
+│   ├── week-3-practical-advice/
+│   └── week-4-decision-trees/
+│
+├── course-3-unsupervised-rl/
+│   ├── week-1-clustering-anomaly/
+│   ├── week-2-recommenders/
+│   └── week-3-reinforcement-learning/
+│
+└── notes/
+    └── concept-summaries/
+```
+
+---
+
+## 🎯 Why I'm Doing This
+
+I've worked with GANs, transformers, ESRGAN, FinBERT, and vision models. I've submitted a dissertation on an agentic AI system. But I started noticing I could *use* these things without truly *understanding* them — the math, the tradeoffs, the failure modes.
+
+This specialization is about earning that understanding from the ground up.  
+No pretending. No skipping. No copy-pasting notebooks.
+
+---
+
+## 📬 Connect
 
 <div align="center">
 
-| Category | Tools & Frameworks |
-|----------|--------------------|
-| **Languages** | Python |
-| **DL Frameworks** | PyTorch, NumPy |
-| **GenAI / LLMs** | HuggingFace Transformers, LangChain |
-| **Data** | Pandas, Matplotlib, Seaborn |
-| **Deployment** | Gradio, Streamlit, HuggingFace Spaces |
-| **Vector DBs** | FAISS, ChromaDB |
-| **Dev Tools** | Git, VS Code, Jupyter, Google Colab |
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin&logoColor=white)](#)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=flat&logo=github&logoColor=white)](#)
+[![Email](https://img.shields.io/badge/Email-Say_Hi-EA4335?style=flat&logo=gmail&logoColor=white)](#)
+
+*Open to AI/ML roles, collaborations, and conversations about machine learning.*  
+*Based in Hyderabad, India 🇮🇳*
 
 </div>
 
 ---
 
-## 📈 Progress Tracker
-
-```
-Phase 0 — Foundations      [██████████] 100% ✅
-Phase 1 — Deep Learning    [░░░░░░░░░░]   0% ⏳
-Phase 2 — GenAI & LLMs     [░░░░░░░░░░]   0% ⏳
-Projects Built             0 / 9
-```
-
----
-
-## 📚 Key Resources & References
-
-- 📖 [Deep Learning Book — Goodfellow et al.](https://www.deeplearningbook.org/)
-- 🎓 [CS6910 — IIT Madras (Mitesh Khapra's Notebooks)](https://github.com/mitesh-kr/Deep-Learning-Study)
-- 🤗 [HuggingFace Documentation](https://huggingface.co/docs)
-- 🔬 [Attention Is All You Need — Original Transformer Paper](https://arxiv.org/abs/1706.03762)
-- 🧪 [The Illustrated Transformer — Jay Alammar](https://jalammar.github.io/illustrated-transformer/)
-
----
-
-## 🎯 End Goal
-
-> By the end of this journey, I aim to:
-> - ✅ Have a **strong theoretical foundation** in Deep Learning
-> - ✅ Have **hands-on project experience** with real datasets
-> - ✅ Understand **how LLMs and GenAI systems work end-to-end**
-> - ✅ Build a **portfolio of 9 projects** demonstrating real skills
-> - ✅ Be **interview-ready** for AI/ML roles in product and service companies
-
----
-
 <div align="center">
-
-*This repo is updated weekly as I progress through each phase.*
-*⭐ Star this repo if you're on a similar journey!*
-
-**Built with consistency, curiosity, and a lot of coffee ☕**
-
+<sub>Started June 2025 · Updated as I go · Built with curiosity and stubbornness</sub>
 </div>
