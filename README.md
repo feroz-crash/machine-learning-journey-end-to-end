@@ -37,9 +37,9 @@ The [Machine Learning Specialization](https://www.coursera.org/specializations/m
 
 | Week | Topic | Status |
 |------|-------|--------|
-| Week 1 | Introduction to ML · Linear Regression · Cost Function | ⬜ Not Started |
-| Week 2 | Gradient Descent · Vectorization · Multiple Features | ⬜ Not Started |
-| Week 3 | Logistic Regression · Decision Boundary · Overfitting & Regularization | ⬜ Not Started |
+| Week 1 | Introduction to ML · Linear Regression · Cost Function | ✅ Done |
+| Week 2 | Gradient Descent · Vectorization · Multiple Features | ✅ Done |
+| Week 3 | Logistic Regression · Decision Boundary · Overfitting & Regularization | ✅ Done |
 
 ### Course 2 · Advanced Learning Algorithms
 
