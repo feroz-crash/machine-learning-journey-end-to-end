@@ -123,9 +123,9 @@ No pretending. No skipping. No copy-pasting notebooks.
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin&logoColor=white)](#)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=flat&logo=github&logoColor=white)](#)
-[![Email](https://img.shields.io/badge/Email-Say_Hi-EA4335?style=flat&logo=gmail&logoColor=white)](#)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ferozshaik-tech/)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=flat&logo=github&logoColor=white)](https://github.com/feroz-crash)
+[![Email](https://img.shields.io/badge/Email-Say_Hi-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:rose17291729@gmail.com)
 
 *Open to AI/ML roles, collaborations, and conversations about machine learning.*  
 *Based in Hyderabad, India 🇮🇳*
@@ -135,5 +135,5 @@ No pretending. No skipping. No copy-pasting notebooks.
 ---
 
 <div align="center">
-<sub>Started June 2025 · Updated as I go · Built with curiosity and stubbornness</sub>
+<sub>Started June 2026 · Updated as I go · Built with curiosity and stubbornness</sub>
 </div>
